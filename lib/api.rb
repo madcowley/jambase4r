@@ -6,7 +6,7 @@ module JamBase4R
       include Utility
       
       API_URL = "http://api.jambase.com/search".freeze
-      JAMBASE_PARAMETERS = [:zip, :radius, :band, :user].freeze
+      JAMBASE_PARAMETERS = [:zip, :radius, :band, :user, :startdate, :enddate].freeze
       PARAMETER_ALIAS_MAP = {:artist => :band}.freeze
       
       #Search Options:
