@@ -15,6 +15,8 @@ helpers to make adding attribution to your site easy.
 This gem adds helper methods to your views (if you are using Rails), but does not alter controllers or
 models in any way.
 
+This is a forked version from Matt Payne's original, to include new start/end date parameters allowed in the jambase api.
+
 Installation
 ============
 
@@ -93,6 +95,8 @@ Possible options:
 :zip => The zipcode to search within
 :radius => The distance from the zipcode to include in the search
 :user => The registered user - this limits the results to those within the user's favorite artists
+:startdate => return results on or after this date
+:enddate => return results before this date
 
 ie: JamBase4R::API.search(:band => "A Band", :zip => "90210", :radius => 20)
     JamBase4R::API.search_by_artist("A Band", {:zip => "90210"})
