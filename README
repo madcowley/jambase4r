@@ -21,11 +21,10 @@ Installation
 ============
 
 1) get and install the gem
-	a) gem sources -a http://gems.github.com (you only have to do this once)
-	b) sudo gem install mattapayne-jambase4r
+   sudo gem install madcowley-jambase4r
 	- OR -
 	If using Rails:
-	a) Add config.gem 'mattapayne-jambase4r', :source => 'http://gems.github.com', :lib => "jambase4r"
+	a) Add config.gem 'madcowley-jambase4r', :lib => "jambase4r"
 	   to your environment.rb file.
 	b) rake gems:install from your project root
 

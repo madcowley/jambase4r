@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version = '1.1.3'
   s.date = "2010-06-30"
   s.summary = "Ruby JamBase API library."
-  s.description = %{A Ruby library use to access the JamBase API.}
+  s.description = %{A Ruby library use to access the JamBase API. Forked from Matt Payne's original.}
   s.has_rdoc = false
   s.authors = ["Matt Payne", "Matt Cowley"]
   s.email = ["matt@mattpayne.ca", "madcowley@gmail.com"]  
